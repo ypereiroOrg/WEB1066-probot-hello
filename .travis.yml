@@ -25,4 +25,4 @@ after_success:
       echo "skipping docker tag";
     fi;
     docker images;
-    awr +x +v;
+    set +x +v;
